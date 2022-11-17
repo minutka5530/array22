@@ -22,8 +22,8 @@ public class Main {
         System.out.println("Сумма трат за месяц составила " + total +  " рублей");
         System.out.println();
         // Задача 2
-        int max = 0;
-        int min =arr[0];
+        int max = 99999;
+        int min = 200001;
         for (int i = 0; i < arr.length; i++) {
             max = arr[i];
             if (arr[i] > max) {
@@ -49,7 +49,7 @@ public class Main {
 
 
         }
-        double average = total/arr.length+pay;
+        double average =(double) total/arr.length;
         System.out.println(average);
         // Задача 4
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
